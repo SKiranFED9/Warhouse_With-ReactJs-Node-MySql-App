@@ -1,0 +1,101 @@
+.App {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.alignSpace{
+  margin-right:10px;
+}
+.custBtn{
+  justify-content: center;
+  align-items: center;
+  width:100px;
+  height:30px;
+   padding-top:0px !important;
+ /* margin-right:10px;
+  margin-top:10px; */
+}
+.custBtnShow{
+  justify-content: center;
+  align-items: center;
+  /* width:150px; */
+  height:30px;
+   padding-top:0px !important;
+ /* margin-right:10px;
+  margin-top:10px; */
+}
+.custColStyle{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #ccc;
+}
+.custBtnShowLog{
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:30px;
+   padding-top:0px !important;
+ /* margin-right:10px;
+  margin-top:10px; */
+}
+
+.custAlign{
+  width:50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.custLoginRow{
+  width: 300px;
+  margin-left: 35% !important;
+  margin-top: 12%;
+}
+.tableStyle{
+  width:70%;
+ text-align:center;
+}
+
+input {
+  width: 200px;
+  height: 22px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+}
+
+button {
+  width: 220px;
+  height: 50px;
+  margin-top:10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.employees{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+
+.employee {
+  width:600px;
+  height:auto;
+  border:1px solid #ccc;
+  display:flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+.employee h3 {
+ margin: 20px;
+}
