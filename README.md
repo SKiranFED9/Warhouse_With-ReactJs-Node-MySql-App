@@ -10,4 +10,3 @@ TableName :  products,
 table columns : product_id, product_name, product_description
 
 Note: don't close the cmd for server folder 
-**************~~~~~~~~~~~~~************
